@@ -19,3 +19,4 @@ llm = AzureChatOpenAI(
 #Invoke is a method of langchain
 response = llm.invoke("Explain gradient descent simply")
 print(response.content)
+
